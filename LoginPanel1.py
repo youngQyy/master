@@ -57,7 +57,7 @@ class LoginPanel:
         btn_frame = Frame(self.login_frame, bg="#f2f2f2")
         self.btn_reg = Button(btn_frame, text="注册", bg="#4d88ff", fg="white", width=15,
                               font=('黑体', 11), command=self.reg_func).pack(side=LEFT, ipady=3)  # 创建注册按钮
-        self.btn_login = Button(btn_frame, text="登录", bg="#4d88ff", fg="white", width=15,
+        self.btn_login = Button(btn_frame, text="登录(Enter)", bg="#4d88ff", fg="white", width=15,
                                 font=('黑体', 11), command=self.login_func).pack(side=RIGHT, ipady=3)  # 创建登录按钮
         btn_frame.pack(fill=X, padx=20, pady=20)  # 布局按钮frame
 
